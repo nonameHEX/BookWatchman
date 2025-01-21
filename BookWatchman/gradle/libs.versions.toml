@@ -1,0 +1,116 @@
+[versions]
+agp = "8.5.2"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.6"
+activityCompose = "1.9.2"
+composeBom = "2024.04.01"
+
+hilt_v = "2.46"
+hilt-compose_v = "1.0.0"
+
+retrofit_v = "2.9.0"
+logging_v = "4.9.3"
+moshi_v = "1.14.0"
+
+navigation_v = "2.7.5"
+
+ksp-version = "1.9.0-1.0.13"
+
+room = "2.6.1"
+lifecycle = "2.7.0"
+
+datastore = "1.0.0"
+
+googlemap = "3.1.1"
+googlemap_compose = "19.0.0"
+googlemap_foundation = "1.7.3"
+
+googlemap_utils = "3.5.3"
+googlemap_widgets = "3.1.1"
+googlemap_compose_utils = "3.1.1"
+googlemap_location_services = "21.0.1"
+
+googleplaces = "3.5.0"
+
+coil = "2.4.0"
+
+materialIconsExtended = "1.7.5"
+
+mlkit-text-recognition = "16.0.1"
+camerax = "1.4.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version = "1.3.1" }
+
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt_v" }
+hilt-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-compose_v" }
+hilt-kapt = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt_v" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit_v" }
+retrofit-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit_v" }
+retrofit-okhtt3 = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "logging_v" }
+
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation_v" }
+navigation-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation_v" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation_v" }
+
+moshi = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi_v" }
+moshi-kotlin = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi_v" }
+moshi-codegen = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi_v" }
+
+lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle"}
+
+room-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "room" }
+room-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler-kapt = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-runtime = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
+datastore-core = { group = "androidx.datastore", name = "datastore-core", version.ref = "datastore"}
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore"}
+
+googlemap = { group = "com.google.maps.android", name = "maps-compose", version.ref = "googlemap" }
+googlemap-compose = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "googlemap_compose" }
+googlemap-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "googlemap_foundation" }
+googlemap_utils = { group = "com.google.maps.android", name = "android-maps-utils", version.ref = "googlemap_utils" }
+googlemap_widgets = { group = "com.google.maps.android", name = "maps-compose-widgets", version.ref = "googlemap_widgets" }
+googlemap_compose_utils = { group = "com.google.maps.android", name = "maps-compose-utils", version.ref = "googlemap_compose_utils" }
+googlemap_location_services = { group = "com.google.android.gms", name = "play-services-location", version.ref = "googlemap_location_services" }
+
+googleplaces = { group = "com.google.android.libraries.places", name = "places", version.ref = "googleplaces"}
+
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+
+mlkit-text-recognition = { group = "com.google.mlkit", name = "text-recognition", version.ref = "mlkit-text-recognition" }
+camerax-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax" }
+camerax-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+camerax-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+camerax-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+camerax-mlkit-vision = { group = "androidx.camera", name = "camera-mlkit-vision", version.ref = "camerax" }
+camerax-extensions = { group = "androidx.camera", name = "camera-extensions", version.ref = "camerax" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+com-google-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt_v" }
+com-google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-version" }
